@@ -1,0 +1,109 @@
+/* Custom CSS styling overrides for the Automated Reconciliation Engine Dashboard */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+/* Typography override */
+html, body, [class*="css"] {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Premium gradient accent titles */
+.main-title {
+    font-weight: 800;
+    background: linear-gradient(135deg, #00C6FF 0%, #0072FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: -0.5px;
+}
+
+.section-subtitle {
+    color: #6C7A9C;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    font-weight: 300;
+}
+
+/* Glassmorphism containers */
+.glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.glass-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(0, 198, 255, 0.2);
+}
+
+/* Metrics and badge aesthetics */
+.badge-matched {
+    background-color: rgba(46, 213, 115, 0.15);
+    color: #2ed573;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid rgba(46, 213, 115, 0.25);
+}
+
+.badge-unmatched {
+    background-color: rgba(255, 71, 87, 0.15);
+    color: #ff4757;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid rgba(255, 71, 87, 0.25);
+}
+
+.badge-exception {
+    background-color: rgba(255, 165, 2, 0.15);
+    color: #ffa502;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border: 1px solid rgba(255, 165, 2, 0.25);
+}
+
+/* Glowing buttons */
+.stButton > button {
+    background: linear-gradient(135deg, #00C6FF 0%, #0072FF 100%) !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 24px !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 15px rgba(0, 114, 255, 0.2) !important;
+}
+
+.stButton > button:hover {
+    transform: translateY(-1px) !important;
+    box-shadow: 0 6px 20px rgba(0, 198, 255, 0.4) !important;
+}
+
+/* Customized scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(0, 198, 255, 0.2);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 198, 255, 0.4);
+}

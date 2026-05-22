@@ -1,0 +1,38 @@
+[
+    {
+        "transaction_date": "2026-05-21",
+        "value_date": "2026-05-21",
+        "amount": 1250.75,
+        "currency": "EUR",
+        "reference": "TXN12345",
+        "bank_reference": "BANKREF111",
+        "description": "Invoice payment 449",
+        "bank_account": "DE99CITI100100",
+        "counterparty_name": "ACME CORP",
+        "counterparty_account": "DE99ACME200200"
+    },
+    {
+        "transaction_date": "2026-05-22",
+        "value_date": "2026-05-22",
+        "amount": -1000.0,
+        "currency": "EUR",
+        "reference": "TXN_BATCH_1",
+        "bank_reference": "TXID_999",
+        "description": "Payment to Vendor A",
+        "bank_account": "DE99CITI100100",
+        "counterparty_name": "Vendor A",
+        "counterparty_account": "DE99VEND300300"
+    },
+    {
+        "transaction_date": "2026-05-22",
+        "value_date": "2026-05-22",
+        "amount": -2000.0,
+        "currency": "EUR",
+        "reference": "TXN_BATCH_2",
+        "bank_reference": "TXID_888",
+        "description": "Payment to Vendor B",
+        "bank_account": "DE99CITI100100",
+        "counterparty_name": "Vendor B",
+        "counterparty_account": ""
+    }
+]

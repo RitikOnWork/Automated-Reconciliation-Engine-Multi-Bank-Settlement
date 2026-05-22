@@ -1,0 +1,64 @@
+{
+  "chase_format_standard": {
+    "bank_name": "Chase Commercial Statement",
+    "delimiter": ",",
+    "skip_rows": 0,
+    "has_header": true,
+    "column_mapping": {
+      "transaction_date": "Posting Date",
+      "value_date": "Value Date",
+      "amount": "Amount",
+      "currency": "Currency",
+      "reference": "Reference Number",
+      "description": "Description",
+      "bank_account": "Account Number"
+    },
+    "date_formats": [
+      "%m/%d/%Y",
+      "%Y-%m-%d"
+    ],
+    "defaults": {
+      "currency": "USD"
+    }
+  },
+  "citi_format_european": {
+    "bank_name": "Citi European Ledger",
+    "delimiter": ";",
+    "skip_rows": 1,
+    "has_header": true,
+    "column_mapping": {
+      "transaction_date": "Booking Date",
+      "value_date": "Value Date",
+      "amount": "Tx Amount",
+      "reference": "Ref ID",
+      "description": "Remittance Info",
+      "bank_account": "IBAN"
+    },
+    "date_formats": [
+      "%d.%m.%Y",
+      "%d/%m/%Y"
+    ],
+    "defaults": {
+      "currency": "EUR"
+    }
+  },
+  "barclays_format_custom": {
+    "bank_name": "Barclays Corporate Ledger",
+    "delimiter": "\t",
+    "skip_rows": 3,
+    "has_header": true,
+    "column_mapping": {
+      "transaction_date": "Transaction Date",
+      "amount": "Ledger Balance Change",
+      "reference": "Serial Number",
+      "description": "Memo Narration"
+    },
+    "date_formats": [
+      "%d-%b-%Y"
+    ],
+    "defaults": {
+      "currency": "GBP",
+      "bank_account": "GB99BARC20000012345678"
+    }
+  }
+}

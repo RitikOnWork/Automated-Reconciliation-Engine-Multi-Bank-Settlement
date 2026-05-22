@@ -1,0 +1,25 @@
+# Web Application Framework
+fastapi>=0.110.0
+uvicorn[standard]>=0.28.0
+pydantic>=2.6.0
+pydantic-settings>=2.2.0
+
+# Database & Migration
+SQLAlchemy>=2.0.25
+psycopg2-binary>=2.9.9
+alembic>=1.13.1
+
+# Security & Authentication
+PyJWT>=2.8.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.9
+
+# Data Processing & Parsers
+rapidfuzz>=3.6.0
+mt-940>=4.23.0
+python-dateutil>=2.9.0
+lxml>=5.1.0
+
+# Utilities
+python-dotenv>=1.0.1
+requests>=2.31.0

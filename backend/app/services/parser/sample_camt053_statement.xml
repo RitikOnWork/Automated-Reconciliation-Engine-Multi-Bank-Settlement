@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.02">
+  <BkToCstmrStmt>
+    <Stmt>
+      <Acct>
+        <Id>
+          <IBAN>DE99CITI100100</IBAN>
+        </Id>
+      </Acct>
+      <!-- Entry 1: Flat Entry (Credit) -->
+      <Ntry>
+        <Amt Ccy="EUR">1250.75</Amt>
+        <CdtDbtInd>CRDT</CdtDbtInd>
+        <BookgDt>
+          <Dt>2026-05-21</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2026-05-21</Dt>
+        </ValDt>
+        <Refs>
+          <EndToEndId>TXN12345</EndToEndId>
+          <AcctSvcrRef>BANKREF111</AcctSvcrRef>
+        </Refs>
+        <RltdPties>
+          <Dbtr>
+            <Nm>ACME CORP</Nm>
+          </Dbtr>
+          <DbtrAcct>
+            <Id>
+              <IBAN>DE99ACME200200</IBAN>
+            </Id>
+          </DbtrAcct>
+        </RltdPties>
+        <RmtInf>
+          <Ustrd>Invoice payment 449</Ustrd>
+        </RmtInf>
+      </Ntry>
+      <!-- Entry 2: Batch Entry (Debit) with Sub-Transactions -->
+      <Ntry>
+        <Amt Ccy="EUR">3000.00</Amt>
+        <CdtDbtInd>DBIT</CdtDbtInd>
+        <BookgDt>
+          <Dt>2026-05-22</Dt>
+        </BookgDt>
+        <ValDt>
+          <Dt>2026-05-22</Dt>
+        </ValDt>
+        <NtryDtls>
+          <TxDtls>
+            <Amt Ccy="EUR">1000.00</Amt>
+            <Refs>
+              <EndToEndId>TXN_BATCH_1</EndToEndId>
+              <TxId>TXID_999</TxId>
+            </Refs>
+            <RltdPties>
+              <Cdtr>
+                <Nm>Vendor A</Nm>
+              </Cdtr>
+              <CdtrAcct>
+                <Id>
+                  <IBAN>DE99VEND300300</IBAN>
+                </Id>
+              </CdtrAcct>
+            </RltdPties>
+            <RmtInf>
+              <Ustrd>Payment to Vendor A</Ustrd>
+            </RmtInf>
+          </TxDtls>
+          <TxDtls>
+            <Amt Ccy="EUR">2000.00</Amt>
+            <Refs>
+              <EndToEndId>TXN_BATCH_2</EndToEndId>
+              <TxId>TXID_888</TxId>
+            </Refs>
+            <RltdPties>
+              <Cdtr>
+                <Nm>Vendor B</Nm>
+              </Cdtr>
+            </RltdPties>
+            <RmtInf>
+              <Ustrd>Payment to Vendor B</Ustrd>
+            </RmtInf>
+          </TxDtls>
+        </NtryDtls>
+      </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>

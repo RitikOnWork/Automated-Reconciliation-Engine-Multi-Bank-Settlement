@@ -1,0 +1,50 @@
+[
+    {
+        "transaction_date": "2026-05-21",
+        "value_date": "2026-05-21",
+        "amount": 500.25,
+        "currency": "EUR",
+        "reference": "REF12345",
+        "bank_reference": "BANKREF99",
+        "transaction_type": "NTRF",
+        "description": "WIRE TRANSFER FROM CLIENT ABC PART 2 OF DESCRIPTION",
+        "funds_code": "",
+        "bank_account": "DE99CITI100100"
+    },
+    {
+        "transaction_date": "2026-05-22",
+        "value_date": "2026-05-22",
+        "amount": -300.0,
+        "currency": "EUR",
+        "reference": "",
+        "bank_reference": "BANKREF100",
+        "transaction_type": "NCHG",
+        "description": "BANK TRANSACTION FEES",
+        "funds_code": "",
+        "bank_account": "DE99CITI100100"
+    },
+    {
+        "transaction_date": "2026-05-21",
+        "value_date": "2026-05-21",
+        "amount": 1500.0,
+        "currency": "USD",
+        "reference": "99999",
+        "bank_reference": "BANKREF200",
+        "transaction_type": "NMSC",
+        "description": "MISC DEPOSIT",
+        "funds_code": "",
+        "bank_account": "DE99CITI100200"
+    },
+    {
+        "transaction_date": "2026-05-21",
+        "value_date": "2026-05-21",
+        "amount": -250.5,
+        "currency": "USD",
+        "reference": "",
+        "bank_reference": "",
+        "transaction_type": "FEXD",
+        "description": "",
+        "funds_code": "",
+        "bank_account": "DE99CITI100200"
+    }
+]
