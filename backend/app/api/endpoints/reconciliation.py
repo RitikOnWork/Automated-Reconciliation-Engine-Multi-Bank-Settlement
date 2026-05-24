@@ -1,3 +1,5 @@
+from datetime import datetime, timezone
+from typing import List, Optional
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from sqlalchemy.orm import Session
 from app.db.session import get_db
@@ -5,6 +7,8 @@ from app.models.user import User
 from app.models.transaction import NormalizedTransaction
 from app.models.match import MatchResult
 from app.models.exception import ExceptionQueue
+from app.schemas.match import MatchResponse
+from app.schemas.report import ReconciliationReportResponse, MatchTypeBreakdown, SourceSystemSummary
 from app.security import get_current_user
 from app.services.matching.exact import ExactMatcher
 from app.services.matching.fuzzy import FuzzyMatcher
@@ -180,3 +184,97 @@ def trigger_reconciliation_run(
             "exceptions_raised": total_exceptions
         }
     }
+
+
+@router.get("/matches", response_model=List[MatchResponse])
+def get_match_results(
+    match_type: Optional[str] = Query(None, description="exact, fuzzy, rule_based, manual"),
+    limit: int = Query(100, ge=1, le=1000),
+    offset: int = Query(0, ge=0),
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    """
+    Retrieves the paginated list of all successful transaction match records.
+    Filters:
+    - match_type (exact, fuzzy, rule_based, manual)
+    """
+    query = db.query(MatchResult)
+    if match_type:
+        query = query.filter(MatchResult.match_type == match_type.lower())
+    return query.order_by(MatchResult.matched_at.desc()).offset(offset).limit(limit).all()
+
+
+@router.get("/report", response_model=ReconciliationReportResponse)
+def generate_reconciliation_report(
+    db: Session = Depends(get_db),
+    current_user: User = Depends(get_current_user)
+):
+    """
+    Generates a real-time structured summary audit report.
+    Presents overall matching performance KPIs and source-system statistics.
+    """
+    # 1. Bank Statement Metrics
+    total_bank = db.query(NormalizedTransaction).filter(NormalizedTransaction.source_system == "bank_statement").count()
+    matched_bank = db.query(NormalizedTransaction).filter(NormalizedTransaction.source_system == "bank_statement", NormalizedTransaction.status == "MATCHED").count()
+    unmatched_bank = db.query(NormalizedTransaction).filter(NormalizedTransaction.source_system == "bank_statement", NormalizedTransaction.status == "UNMATCHED").count()
+    exc_bank = db.query(NormalizedTransaction).filter(NormalizedTransaction.source_system == "bank_statement", NormalizedTransaction.status == "EXCEPTION").count()
+    
+    bank_rate = (matched_bank / total_bank * 100.0) if total_bank > 0 else 0.0
+
+    # 2. Internal Ledger Metrics
+    total_ledger = db.query(NormalizedTransaction).filter(NormalizedTransaction.source_system == "internal_ledger").count()
+    matched_ledger = db.query(NormalizedTransaction).filter(NormalizedTransaction.source_system == "internal_ledger", NormalizedTransaction.status == "MATCHED").count()
+    unmatched_ledger = db.query(NormalizedTransaction).filter(NormalizedTransaction.source_system == "internal_ledger", NormalizedTransaction.status == "UNMATCHED").count()
+    exc_ledger = db.query(NormalizedTransaction).filter(NormalizedTransaction.source_system == "internal_ledger", NormalizedTransaction.status == "EXCEPTION").count()
+    
+    ledger_rate = (matched_ledger / total_ledger * 100.0) if total_ledger > 0 else 0.0
+
+    # 3. Overall Match Rate
+    overall_rate = ((matched_bank + matched_ledger) / (total_bank + total_ledger) * 100.0) if (total_bank + total_ledger) > 0 else 0.0
+
+    # 4. Breakdown by Match Type
+    exact_count = db.query(MatchResult).filter(MatchResult.match_type == "exact").count()
+    rule_count = db.query(MatchResult).filter(MatchResult.match_type == "rule_based").count()
+    fuzzy_count = db.query(MatchResult).filter(MatchResult.match_type == "fuzzy").count()
+    manual_count = db.query(MatchResult).filter(MatchResult.match_type == "manual").count()
+
+    # 5. Unresolved Exceptions count
+    unresolved_exceptions = db.query(ExceptionQueue).filter(ExceptionQueue.status == "OPEN").count()
+
+    # Log report generation action
+    AuditService.log_action(
+        db=db,
+        action="REPORT_GENERATED",
+        performed_by=current_user.username,
+        comments=f"Generated real-time reconciliation report. Overall match-rate: {overall_rate:.2f}%"
+    )
+
+    return ReconciliationReportResponse(
+        generated_at=datetime.now(timezone.utc),
+        total_bank_transactions=total_bank,
+        total_ledger_transactions=total_ledger,
+        match_rate=overall_rate,
+        breakdown_by_type=MatchTypeBreakdown(
+            exact=exact_count,
+            rule_based=rule_count,
+            fuzzy=fuzzy_count,
+            manual=manual_count
+        ),
+        bank_summary=SourceSystemSummary(
+            total_count=total_bank,
+            matched_count=matched_bank,
+            unmatched_count=unmatched_bank,
+            exception_count=exc_bank,
+            match_rate=bank_rate
+        ),
+        ledger_summary=SourceSystemSummary(
+            total_count=total_ledger,
+            matched_count=matched_ledger,
+            unmatched_count=unmatched_ledger,
+            exception_count=exc_ledger,
+            match_rate=ledger_rate
+        ),
+        total_unresolved_exceptions=unresolved_exceptions
+    )
+
