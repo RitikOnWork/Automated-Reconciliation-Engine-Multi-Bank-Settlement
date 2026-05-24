@@ -1,0 +1,4456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:camt.053.001.02">
+  <BkToCstmrStmt>
+    <Stmt>
+      <Id>SYNTHETIC-CAMT-001</Id>
+      <CreDtTm>2026-05-24T08:34:48.301448+00:00</CreDtTm>
+      <Acct>
+        <Id>
+          <Othr>
+            <Id>US89370400440532013000</Id>
+          </Othr>
+        </Id>
+      </Acct>
+        <Ntry>
+          <Amt Ccy="GBP">29848.73</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100057</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING TRANSFER TO DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">47139.95</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-13</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-13</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100076</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">9603.98</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-12</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-12</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100137</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100157</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - OSCORP TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">31989.37</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100001</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO STARK INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">6834.47</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-21</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-21</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100150</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">24916.12</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-13</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-13</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100092</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO OSCORP TECH LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">2554.61</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100036</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO HOOLI TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">13537.90</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100123</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">2338.93</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-10</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-10</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100008</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">17486.43</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-03</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-03</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100109</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO STARK INDUSTRIES LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">2139.47</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-19</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-19</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100081</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO GLOBEX FINANCIAL LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-14</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-14</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100160</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">13289.58</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-14</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-14</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100023</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">319.85</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-04</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-04</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100127</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM BLUTH COMPANY</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">18979.71</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100034</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>PAYROLL CREDIT TO VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">37601.25</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100071</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO BLUTH COMPANY</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">11061.01</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100004</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>VENDOR SETTLEMENT TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-13</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-13</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100154</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - TYRELL BIOSYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">8664.46</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-12</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-12</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100126</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">6666.21</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-03</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-03</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100042</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO STARK INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">9184.56</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-23</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-23</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100128</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">33851.14</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-03</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-03</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100002</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">13934.78</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-12</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-12</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100009</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO HOOLI TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">12560.26</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100103</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO INITECH CONSULTING LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">14097.99</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-14</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-14</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100141</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">35406.66</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100026</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">6285.07</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-03</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-03</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100007</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO TYRELL BIOSYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">40410.71</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-04</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-04</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100032</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">17981.02</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-20</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-20</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100006</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO WAYNE ENTERPRISES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">21051.29</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-06</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-06</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100061</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO TYRELL BIOSYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">43614.73</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100053</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>MERCHANT PAYOUT TO VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">3572.75</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100170</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">4660.31</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100046</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">40039.60</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100030</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">15228.55</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-14</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-14</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100062</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>MERCHANT PAYOUT TO CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">42574.56</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-20</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-20</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100037</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">3545.19</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100059</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING TRANSFER TO CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">2222.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100164</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - OSCORP TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">7052.11</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100031</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">21288.73</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-18</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-18</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100089</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO VEHEMENT MEDIA LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">12237.02</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-01</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-01</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100067</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">7782.10</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-07</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-07</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100035</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">1177.90</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-01</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-01</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100166</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">3808.43</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-05</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-05</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100048</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">16625.85</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-06</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-06</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100115</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO BLUTH COMPANY LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">15498.77</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100060</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>PAYROLL CREDIT TO PRESTIGE WORLDWIDE</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">20295.94</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-06</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-06</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100097</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO STARK INDUSTRIES LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">150.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-18</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-18</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100152</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - PRESTIGE WORLDWIDE</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">46964.90</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100056</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>PAYROLL CREDIT TO HOOLI TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">22850.27</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100069</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>MERCHANT PAYOUT TO CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">12233.18</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-07</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-07</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100146</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">2351.10</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-01</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-01</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100175</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - BLUTH COMPANY</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">1096.14</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-06</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-06</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100143</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">32155.34</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-15</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-15</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100079</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO HOOLI TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">2704.54</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-13</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-13</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100106</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO DUNDER MIFFLIN LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">1803.52</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-03</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-03</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100136</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">12773.39</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-14</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-14</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100058</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">40121.65</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100052</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>VENDOR SETTLEMENT TO WAYNE ENTERPRISES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">3148.41</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-18</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-18</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100125</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">33363.32</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-18</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-18</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100050</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>VENDOR SETTLEMENT TO DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">23328.02</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-10</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-10</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100114</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO PRESTIGE WORLDWIDE LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">41035.79</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100054</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">2791.03</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-15</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-15</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100121</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM STARK INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">5637.79</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-10</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-10</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100021</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO STARK INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">7929.98</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-07</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-07</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100107</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO PRESTIGE WORLDWIDE LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">1878.10</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100102</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO TYRELL BIOSYSTEMS LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">150.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-05</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-05</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100153</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">5064.08</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-21</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-21</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100082</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO SOYLENT GREEN CO LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">13929.67</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100005</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING TRANSFER TO UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">8892.64</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100140</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">41536.93</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-15</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-15</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100070</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>MERCHANT PAYOUT TO HOOLI TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">40337.82</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-01</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-01</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100065</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">10670.70</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-13</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-13</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100013</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>VENDOR SETTLEMENT TO VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">47082.73</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100038</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING TRANSFER TO GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">1760.31</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-15</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-15</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100167</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">1497.37</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-13</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-13</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100120</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO DUNDER MIFFLIN LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">14710.33</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-15</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-15</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100018</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>PAYROLL CREDIT TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">21207.75</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-02</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-02</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100029</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">150.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-03</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-03</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100158</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">33797.58</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100063</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING TRANSFER TO HOOLI TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">13260.07</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-18</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-18</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100044</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>PAYROLL CREDIT TO SOYLENT GREEN CO</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">39241.74</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-07</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-07</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100028</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING TRANSFER TO UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1832.75</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-12</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-12</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100161</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - OSCORP TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">24051.59</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-22</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-22</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100104</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO ACME CORPORATION LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">13331.44</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100139</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM OSCORP TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">10970.97</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-20</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-20</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100003</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">31873.81</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-06</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-06</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100047</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">22798.04</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-19</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-19</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100066</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">13966.22</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100055</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO OSCORP TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">22721.76</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-22</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-22</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100098</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO DUNDER MIFFLIN LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">23105.39</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-20</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-20</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100101</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO VEHEMENT MEDIA LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">41099.04</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-13</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-13</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100012</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING TRANSFER TO WAYNE ENTERPRISES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">40215.29</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100068</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INVOICE PAYMENT TO VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">500.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-20</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-20</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100151</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">1492.17</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-19</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-19</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100165</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - PRESTIGE WORLDWIDE</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">10445.71</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-19</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-19</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100111</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO STARK INDUSTRIES LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">12102.64</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-05</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-05</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100133</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM SOYLENT GREEN CO</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">13009.14</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100108</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO VANDELAY INDUSTRIES LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">6112.71</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100162</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">150.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-21</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-21</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100155</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">150.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-23</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-23</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100155</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">3920.29</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100072</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO WAYNE ENTERPRISES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">9697.23</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-03</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-03</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100144</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">15707.30</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-19</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-19</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100118</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO GLOBEX FINANCIAL LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">5353.70</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100173</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - PRESTIGE WORLDWIDE</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">13683.12</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-01</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-01</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100077</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO PRESTIGE WORLDWIDE</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">13719.61</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100132</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM BLUTH COMPANY</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">48811.49</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-14</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-14</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100051</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>VENDOR SETTLEMENT TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-12</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-12</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100160</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">4857.30</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100090</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO BLUTH COMPANY LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">22709.85</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100084</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO VEHEMENT MEDIA LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">6587.37</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-10</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-10</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100040</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">419.93</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-10</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-10</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100148</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">2221.68</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-04</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-04</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100171</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - OSCORP TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">14817.25</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100124</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM WAYNE ENTERPRISES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">41652.91</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-19</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-19</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100075</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-15</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-15</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100156</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - PRESTIGE WORLDWIDE</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">21937.32</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-10</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-10</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100043</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>PAYROLL CREDIT TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">4891.51</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100163</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">3499.06</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-12</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-12</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100112</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO DUNDER MIFFLIN LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">42033.26</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-20</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-20</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100078</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">24231.67</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-22</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-22</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100117</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO PRESTIGE WORLDWIDE LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">11262.72</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-07</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-07</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100131</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM OSCORP TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">21049.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100110</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO UMBRELLA CORP LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">7955.64</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-19</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-19</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100093</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO HOOLI TECH LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">8357.24</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100033</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">871.13</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-18</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-18</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100138</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-04</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-04</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100159</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">11273.63</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-01</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-01</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100025</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO STARK INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">7609.41</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-22</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-22</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100085</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO UMBRELLA CORP LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">26479.26</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-01</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-01</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100017</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>PAYROLL CREDIT TO UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">8596.66</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-18</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-18</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100086</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO UMBRELLA CORP LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">12369.04</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-18</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-18</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100014</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO WAYNE ENTERPRISES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">18370.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100087</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO BLUTH COMPANY LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">11111.51</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-07</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-07</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100105</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO DUNDER MIFFLIN LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">14885.90</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-05</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-05</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100100</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO STARK INDUSTRIES LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">4074.85</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100073</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>VENDOR SETTLEMENT TO PRESTIGE WORLDWIDE</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">8583.58</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-10</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-10</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100096</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO BLUTH COMPANY LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">24514.71</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100094</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO STARK INDUSTRIES LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">22941.36</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-04</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-04</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100041</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">14515.59</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-14</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-14</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100134</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">4113.99</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-14</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-14</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100135</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM WAYNE ENTERPRISES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">14834.55</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100145</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">20953.15</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-19</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-19</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100113</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO SOYLENT GREEN CO LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">33209.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100064</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100157</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - OSCORP TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">35894.73</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-21</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-21</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100045</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>MERCHANT PAYOUT TO WAYNE ENTERPRISES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-06</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-06</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100159</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">4328.39</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-03</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-03</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100022</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>VENDOR SETTLEMENT TO SOYLENT GREEN CO</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">20785.20</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100088</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO VANDELAY INDUSTRIES LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">25732.10</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100027</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>VENDOR SETTLEMENT TO VEHEMENT MEDIA</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100156</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - PRESTIGE WORLDWIDE</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">7684.42</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-14</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-14</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100016</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">15852.67</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-07</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-07</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100039</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">9498.07</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-23</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-23</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100129</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">3636.39</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100122</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM WAYNE ENTERPRISES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">150.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-03</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-03</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100153</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">6480.47</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100083</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO UMBRELLA CORP LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">6415.90</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-12</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-12</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100049</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">14815.40</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-08</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-08</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100147</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">2991.92</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100168</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">8211.95</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100011</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO STARK INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">14268.22</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-06</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-06</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100142</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM OSCORP TECH</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">4127.44</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100149</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM UMBRELLA CORP</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">1286.86</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-02</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-02</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100169</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">6689.69</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-09</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-09</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100099</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO STARK INDUSTRIES LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">931.57</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-19</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-19</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100172</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - BLUTH COMPANY</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">150.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100152</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - PRESTIGE WORLDWIDE</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">1200.50</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-15</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-15</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100154</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - TYRELL BIOSYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">49757.71</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-12</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-12</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100024</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>MERCHANT PAYOUT TO VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">150.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-05</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-05</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100158</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - DUNDER MIFFLIN</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">38137.41</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100020</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING ADJUSTMENT TO ACME CORPORATION</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">20772.65</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-18</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-18</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100074</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO VANDELAY INDUSTRIES</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">24358.44</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100095</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO SOYLENT GREEN CO LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="GBP">111.11</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-07</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-07</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-MIS-100174</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>UNRESOLVED SUSPENSE DEPOSIT - SOYLENT GREEN CO</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="AUD">33525.25</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-21</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-21</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100010</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>VENDOR SETTLEMENT TO INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="CAD">11062.12</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100116</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO ACME CORPORATION LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">10905.89</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-22</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-22</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100119</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO UMBRELLA CORP LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="JPY">16401.27</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-11</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-11</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100080</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>SERVICE FEE CHARGE TO CYBERDYNE SYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">25408.70</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-21</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-21</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100019</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>OPERATIONAL WIRE TO TYRELL BIOSYSTEMS</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">693.80</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-07</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-07</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-FX-100130</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>INCOMING SEPA FX FROM INITECH CONSULTING</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">2417.03</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-16</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-16</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100091</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>WIRE PYMT TO STARK INDUSTRIES LLC</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="EUR">11005.07</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-17</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-17</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-100015</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>CLEARING TRANSFER TO BLUTH COMPANY</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+        <Ntry>
+          <Amt Ccy="USD">500.00</Amt>
+          <CdtDbtInd>CRDT</CdtDbtInd>
+          <Status>BOOK</Status>
+          <BookgDt>
+            <Dt>2026-05-22</Dt>
+          </BookgDt>
+          <ValDt>
+            <Dt>2026-05-22</Dt>
+          </ValDt>
+          <NtryDtls>
+            <TxDtls>
+              <Refs>
+                <EndToEndId>REF-DUP-100151</EndToEndId>
+              </Refs>
+              <RltdPties>
+                <Dbtr>
+                  <Nm>SYNTHETIC BANK INC</Nm>
+                </Dbtr>
+              </RltdPties>
+              <AddtlTxInf>BATCH PAYROLL SETTLEMENT - GLOBEX FINANCIAL</AddtlTxInf>
+            </TxDtls>
+          </NtryDtls>
+        </Ntry>
+    </Stmt>
+  </BkToCstmrStmt>
+</Document>
